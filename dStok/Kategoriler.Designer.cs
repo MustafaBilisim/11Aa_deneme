@@ -86,7 +86,7 @@
             // 
             // btnKategoriGuncelle
             // 
-            this.btnKategoriGuncelle.Location = new System.Drawing.Point(253, 68);
+            this.btnKategoriGuncelle.Location = new System.Drawing.Point(287, 68);
             this.btnKategoriGuncelle.Name = "btnKategoriGuncelle";
             this.btnKategoriGuncelle.Size = new System.Drawing.Size(75, 41);
             this.btnKategoriGuncelle.TabIndex = 4;
@@ -94,7 +94,7 @@
             this.btnKategoriGuncelle.UseVisualStyleBackColor = true;
             this.btnKategoriGuncelle.Click += new System.EventHandler(this.btnKategoriGuncelle_Click);
             // 
-            // Form1
+            // Kategoriler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,7 +105,7 @@
             this.Controls.Add(this.txtKategoriAdi);
             this.Controls.Add(this.dgwKategoriler);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Kategoriler";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgwKategoriler)).EndInit();

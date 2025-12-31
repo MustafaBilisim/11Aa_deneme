@@ -38,7 +38,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(233, 56);
+            this.label1.Location = new System.Drawing.Point(122, 61);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(233, 82);
+            this.label2.Location = new System.Drawing.Point(122, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 0;
@@ -55,14 +55,14 @@
             // 
             // txtKullaniciAdi
             // 
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(327, 48);
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(216, 53);
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(224, 20);
             this.txtKullaniciAdi.TabIndex = 1;
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(327, 74);
+            this.txtSifre.Location = new System.Drawing.Point(216, 79);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.PasswordChar = '*';
             this.txtSifre.Size = new System.Drawing.Size(224, 20);
@@ -70,7 +70,7 @@
             // 
             // btnGirisYap
             // 
-            this.btnGirisYap.Location = new System.Drawing.Point(236, 110);
+            this.btnGirisYap.Location = new System.Drawing.Point(125, 115);
             this.btnGirisYap.Name = "btnGirisYap";
             this.btnGirisYap.Size = new System.Drawing.Size(315, 60);
             this.btnGirisYap.TabIndex = 2;
@@ -82,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 290);
+            this.ClientSize = new System.Drawing.Size(559, 284);
             this.Controls.Add(this.btnGirisYap);
             this.Controls.Add(this.txtSifre);
             this.Controls.Add(this.txtKullaniciAdi);

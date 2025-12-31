@@ -26,7 +26,7 @@ namespace dStok
         
         private void btnGirisYap_Click(object sender, EventArgs e)
         {
-
+            // veritabanı bağlantısını aç
             baglanti.Open();
 
             SqlDataAdapter da = new SqlDataAdapter("select * from personeller where kullanici_adi='"+txtKullaniciAdi.Text+"' and sifre='"+txtSifre.Text+"'", baglanti);
